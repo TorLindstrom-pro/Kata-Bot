@@ -16,7 +16,7 @@ dotnet sln %1.sln add ./Test/Test.csproj
 @REM java project
 @REM TODO
 
-echo "**/obj/**" >> .gitignore
+echo **/obj/** >> .gitignore
 
 git add --all
 git commit -m "initial commit"
