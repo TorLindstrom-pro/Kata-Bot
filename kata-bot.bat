@@ -16,6 +16,8 @@ dotnet sln %1.sln add ./Test/Test.csproj
 @REM java project
 @REM TODO
 
+echo "**/obj/**" >> .gitignore
+
 git add --all
 git commit -m "initial commit"
 git push --set-upstream origin master
