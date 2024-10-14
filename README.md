@@ -17,7 +17,7 @@ You need to have github cli installed:
 * You also need to have dotnet sdk installed
 * And git
 
-After all tools are installed you can clone the repo, enter the repo, and then run `kata-bot.bat {kata name}`
+After all tools are installed you can clone the repo, enter the repo, and then run `kata-bot.bat {kata-name}` (no spaces in name)
 
 This creates a Github repo and clones it locally, it then populates the repo with a .Net solution containing a source project and a test project
 
